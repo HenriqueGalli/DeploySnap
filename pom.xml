@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>JenkinsDeploy</name>
-  <url>https://nexus.atomicsolutions.com.br/repository/jenkins-snap</url>
+  <url>https://nexus.atomicsolutions.com.br/repository/jenkins-release</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,7 +23,7 @@
      <snapshotRepository>
            <id>jenkins-snap</id>
            <name>jenkins-snap</name>  
-           <url>https://nexus.atomicsolutions.com.br/repository/jenkins-snap/</url>
+           <url>https://nexus.atomicsolutions.com.br/repository/jenkins-release/</url>
      </snapshotRepository>   
   </distributionManagement>
   <dependencies>
