@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! - Teste Versao Release 0.0.2" );
+        System.out.println( "Hello World! - Teste Versao Release 0.0.3" );
+    }
+
+    public static void testeVersao3() {
+    	System.out.println("");
     }
 }
