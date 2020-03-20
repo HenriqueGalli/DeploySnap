@@ -4,7 +4,7 @@
 
   <groupId>br.com.teste</groupId>
   <artifactId>JenkinsDeploy</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.0</version>
   <packaging>jar</packaging>
 
   <name>JenkinsDeploy</name>
@@ -36,8 +36,8 @@
   </dependencies>
   
     <scm>
-    <connection>scm:git:git@github.com:HenriqueGalli/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:HenriqueGalli/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</connection>
+    <developerConnection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</developerConnection>
     <tag>HEAD</tag>
     <url>http://github.com/HenriqueGalli/maven-project</url>
   </scm>
