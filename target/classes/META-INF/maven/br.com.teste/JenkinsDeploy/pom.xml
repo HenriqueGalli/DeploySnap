@@ -39,6 +39,6 @@
     <connection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</connection>
     <developerConnection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/HenriqueGalli/maven-project</url>
+    <url>http://github.com/HenriqueGalli/DeploySnap</url>
   </scm>
 </project>
