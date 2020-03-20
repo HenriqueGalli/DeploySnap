@@ -5,16 +5,29 @@
   <groupId>br.com.teste</groupId>
   <artifactId>JenkinsDeploy</artifactId>
   <version>0.0.0</version>
-  <packaging>jar</packaging>
 
   <name>JenkinsDeploy</name>
   <url>https://nexus.atomicsolutions.com.br/repository/jenkins-release</url>
 
   <properties>
+  		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-	<distributionManagement>
+  <build>
+  	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.8.2</version>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+  </build>
+  <distributionManagement>
      <repository>
             <id>jenkins-release</id>
             <name>jenkins-release</name>
@@ -26,6 +39,7 @@
            <url>https://nexus.atomicsolutions.com.br/repository/jenkins-snap/</url>
      </snapshotRepository>   
   </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -38,7 +52,6 @@
     <scm>
     <connection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</connection>
     <developerConnection>scm:git:git@github.com:HenriqueGalli/DeploySnap.git</developerConnection>
-    <tag>HEAD</tag>
     <url>http://github.com/HenriqueGalli/DeploySnap</url>
   </scm>
 </project>
