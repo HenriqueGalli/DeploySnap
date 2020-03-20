@@ -32,12 +32,12 @@
             <id>jenkins-release</id>
             <name>jenkins-release</name>
             <url>https://nexus.atomicsolutions.com.br/repository/jenkins-release/</url>
-        </repository>  
-     <snapshotRepository>
+     </repository>  
+   <!--    <snapshotRepository>
            <id>jenkins-snap</id>
            <name>jenkins-snap</name>  
            <url>https://nexus.atomicsolutions.com.br/repository/jenkins-snap/</url>
-     </snapshotRepository>   
+     </snapshotRepository> -->  
   </distributionManagement>
   
   <dependencies>
