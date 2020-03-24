@@ -4,7 +4,7 @@
 
   <groupId>br.com.teste</groupId>
   <artifactId>JenkinsDeploy</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.5-SNAPSHOT</version>
 
   <name>JenkinsDeploy</name>
   <url>https://nexus.atomicsolutions.com.br/repository/jenkins-release</url>
